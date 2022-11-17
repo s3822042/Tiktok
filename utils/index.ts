@@ -9,6 +9,7 @@ export const createOrGetUser = async (response: any, addUser: any) => {
   );
 
   const { name, picture, sub } = decoded;
+  
 
   const user = {
     _id: sub,
